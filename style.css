@@ -1,0 +1,133 @@
+body {
+    font-family:sans-serif;
+    padding:1em;
+    background-color: black;
+}
+#title{
+    font-family: fantasy;
+    font-size: x-large;
+    color: #fff;
+    position: relative;
+    left: 50%;
+}
+#table {
+    overflow:hidden;
+    position:relative;
+    border:1px solid rgb(3, 85, 52);
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    background: rgb(8, 66, 42);
+    color:#ffffff;
+    padding:.5em;
+    font-size:2.1em;
+    height:10em;
+    width:40em;
+}
+.card {
+  background:#fff;
+  border: 1px solid gray;
+  border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+  -moz-box-shadow:0 2px 2px 1px #999;
+    -webkit-box-shadow:0px 2px 2px 1px #999;
+    box-shadow:0 2px 2px 1px #999;
+  font-size: 20pt;
+  float: left;
+  width:  3.75em;
+  height: 5em;
+  padding:.1em;
+  margin-right:-1em;
+ font-family:serif;
+}
+.card:first-child {margin-left:0;}
+
+.Spades, .Clubs {color:black}
+
+.Diamonds, .Hearts {color:red}
+
+#deal {
+	background:linear-gradient(to bottom, #b31a12 5%, #c62d1f 100%);
+	background-color:#b31a12;
+	border-radius:28px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+    position: relative;
+    left: 50%;
+}
+#deal:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #b31a12 100%);
+	background-color:#c62d1f;
+}
+#deal:active {
+	position:relative;
+	top:1px;
+}
+
+#hit {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    position: relative;
+    left: 45%;
+}
+#hit:hover {
+	background:linear-gradient(to bottom, #52a826 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+#hit:active {
+	position:relative;
+	top:1px;
+}
+
+#stand {
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:28px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+    position: relative;
+    left: 45%;
+}
+#stand:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+#stand:active {
+	position:relative;
+	top:1px;
+}
+
+
+#hit, #stand {display:none;}
+#yourScore {
+    color: #ffffff;
+    font-size: large;
+    font-weight:800;
+    position: relative;
+    left: 50%;
+}
